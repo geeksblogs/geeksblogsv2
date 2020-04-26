@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "9"
+  - "12.0"
 dist: trusty
 sudo: required
 branches:
@@ -11,4 +11,4 @@ before_script:
 script:
 - ng lint
 - ng build --prod --base-href https://geeksblogs.github.io/geekblogsv2/
-# test
+
