@@ -23,11 +23,8 @@ import { LatestCourseListComponent } from './course/latest-course-list/latest-co
 import { ContactComponent } from './contact/contact.component';
 
 import { HttpClientModule } from '@angular/common/http';
-import { MachineLearningComponent } from './course/courses/machine-learning/machine-learning.component';
-import { GameDevelopmentComponent } from './course/courses/game-development/game-development.component';
-import { DescriptionCurriculumComponent } from './course/courses/machine-learning/description-curriculum/description-curriculum.component';
-import { DescriptionComponent } from './course/courses/machine-learning/description/description.component';
-import { Blog1Component } from './course/courses/machine-learning/blogs/blog1/blog1.component';
+
+
 
 @NgModule({
   declarations: [
@@ -49,11 +46,8 @@ import { Blog1Component } from './course/courses/machine-learning/blogs/blog1/bl
     CourseListComponent,
     LatestCourseListComponent,
     ContactComponent,
-    MachineLearningComponent,
-    GameDevelopmentComponent,
-    DescriptionCurriculumComponent,
-    DescriptionComponent,
-    Blog1Component,
+
+
   ],
   imports: [
     BrowserModule,
