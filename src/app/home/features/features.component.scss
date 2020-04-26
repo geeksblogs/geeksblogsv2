@@ -1,0 +1,32 @@
+.features {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content {
+  text-align: center;
+
+  .heading {
+    font-size: 3rem;
+    font-family: 'balooSemiBold';
+    color: rgb(58, 58, 58);
+  }
+
+  .heading2 {
+    font-size: 1.5rem;
+    font-family: 'balooSemiBold';
+    color: rgb(58, 58, 58);
+    padding-top: 5px;
+  }
+
+  .subheading {
+    font-size: 1em;
+    font-family: 'balooRegular';
+    color: rgb(100, 100, 100);
+
+    i {
+      position: relative;
+      right: -20%;
+    }
+  }
+}

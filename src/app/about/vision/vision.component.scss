@@ -1,0 +1,31 @@
+$green: #87ca3b;
+.content {
+    .card {
+        border-radius: 10px;
+        height: 100%;
+    }
+    img {
+        border-radius: 10px;
+        height: 400px;
+    }
+    .heading {
+        font-size: 3rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+    }
+    .heading2 {
+        font-size: 1.5rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+        padding-top: 5px;
+    }
+    .subheading {
+        font-size: 1em;
+        font-family: 'balooRegular';
+        color: rgb(100, 100, 100);
+        i {
+            position: relative;
+            right: -20%;
+        }
+    }
+}

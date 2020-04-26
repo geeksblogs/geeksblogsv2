@@ -1,0 +1,40 @@
+$green: #87ca3b;
+
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 5;
+  box-shadow: 0 10px 6px -12px black;
+  font-family: "balooBold";
+
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  a {
+    color: black;
+    font-family: "balooSemiBold";
+    font-size: 20px;
+    margin-left: 30px;
+    padding-bottom: 5px;
+
+    &:hover {
+      color: $green;
+    }
+  }
+
+  a.active {
+    color: $green;
+  }
+
+  .logo {
+    height: 80px;
+    width: 80px;
+  }
+
+  .blogs {
+    color: $green;
+  }
+
+}

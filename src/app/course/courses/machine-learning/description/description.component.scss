@@ -1,0 +1,28 @@
+img {
+    border-radius: 10px;
+    height: 230px;
+    width: 150px;
+}
+
+.subheading {
+    font-size: 1em;
+    font-family: 'balooRegular';
+    color: rgb(100, 100, 100);
+    i {
+        position: relative;
+        right: -20%;
+    }
+}
+
+.icons {
+    padding-right: 20px;
+    ;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: #51A023;
+}

@@ -1,0 +1,55 @@
+$green: #87ca3b;
+.our-courses {
+    padding-top: 100px;
+    background-image: url("/../assets/images/home/course_bg.jpg");
+    background-position: center center;
+    background-size: 1500px 1125px;
+}
+
+.content {
+    .card,
+    img {
+        border-radius: 10px;
+    }
+    .heading {
+        font-size: 3rem;
+        font-family: 'balooSemiBold';
+        color: white;
+    }
+    .heading2 {
+        font-size: 1.5rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+        padding-top: 5px;
+    }
+    .subheading2 {
+        font-size: 1em;
+        font-family: 'balooRegular';
+        color: whitesmoke;
+        i {
+            position: relative;
+            right: -20%;
+        }
+    }
+    .subheading {
+        font-size: 1em;
+        font-family: 'balooRegular';
+        color: rgb(100, 100, 100);
+        i {
+            position: relative;
+            right: -20%;
+        }
+    }
+    .course-btn {
+        color: white;
+        background-color: $green;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        border-radius: 5px;
+        text-align: center;
+        border: none;
+        font-family: 'balooSemiBold';
+    }
+}

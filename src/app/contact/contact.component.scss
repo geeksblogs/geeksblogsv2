@@ -1,0 +1,76 @@
+$green: #87ca3b;
+
+.our-courses {
+  padding-top: 50px;
+}
+
+.content {
+
+  .heading {
+    font-size: 3rem;
+    font-family: 'balooSemiBold';
+    color: rgb(58, 58, 58);
+  }
+
+  .subheading {
+    font-size: 1em;
+    font-family: 'balooRegular';
+    color: rgb(100, 100, 100);
+
+    i {
+      position: relative;
+      right: -20%;
+    }
+  }
+
+  .course-btn {
+    color: white;
+    background-color: $green;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    font-family: 'balooSemiBold';
+
+  }
+}
+
+.comment_form {
+  margin-top: 35px;
+}
+
+.comment_input {
+  width: 100%;
+  height: 46px;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  padding-left: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2c3145;
+}
+
+.comment_form>div:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.comment_input:focus {
+  border: solid 1px #87CA3B;
+  outline: none;
+}
+
+.comment_textarea {
+  width: 100%;
+  height: 150px;
+  padding-top: 15px;
+}
+
+.form_title {
+  font-size: 16px;
+  font-weight: 400;
+  color: #384158;
+  margin-bottom: 12px;
+}

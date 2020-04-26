@@ -1,0 +1,21 @@
+.heading {
+  font-family: 'balooSemiBold';
+  font-size: 1.5rem;
+}
+
+.card {
+  margin-bottom: 5px;
+  margin-top: 5px;
+
+  img {
+    height: 100px;
+    width: 100px;
+  }
+
+  .title {
+    font-family: 'balooSemiBold';
+    position: absolute;
+    left: 120px;
+    top: 10px;
+  }
+}

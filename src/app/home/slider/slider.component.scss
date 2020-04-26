@@ -1,0 +1,23 @@
+.slider {
+    height: 90vh;
+    background-image: url("/../assets/images/home/slider.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 1666px 1056px;
+    .content {
+        position: relative;
+        top: 40%;
+        transform: translateY(-50%);
+        text-align: center;
+        .heading {
+            font-size: 4rem;
+            font-family: 'balooBold';
+            color: white;
+        }
+        .subheading {
+            font-size: 2rem;
+            font-family: 'balooRegular';
+            color: whitesmoke;
+        }
+    }
+}

@@ -1,0 +1,47 @@
+.content {
+    .card {
+        border-radius: 10px;
+        text-align: center;
+        margin-top: 100px;
+    }
+    img {
+        border-radius: 10px;
+        height: 230px;
+        width: 150px;
+        margin: 0 auto;
+        margin-top: -125px;
+    }
+    .heading {
+        font-size: 3rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+    }
+    .heading2 {
+        font-size: 1.5rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+        padding-top: 5px;
+    }
+    .subheading {
+        font-size: 1em;
+        font-family: 'balooRegular';
+        color: rgb(100, 100, 100);
+        i {
+            position: relative;
+            right: -20%;
+        }
+    }
+}
+
+.icons {
+    padding-right: 20px;
+    ;
+}
+
+i {
+    color: black;
+}
+
+i:hover {
+    color: #51A023;
+}

@@ -1,0 +1,22 @@
+.our-courses {
+    padding-top: 100px;
+    background-image: url("/../assets/images/home/bg.jpg");
+    background-position: center center;
+}
+
+.content {
+    .card,
+    img {
+        border-radius: 10px;
+    }
+    .heading {
+        font-size: 3rem;
+        font-family: 'balooSemiBold';
+        color: rgb(58, 58, 58);
+    }
+    .subheading {
+        font-size: 1em;
+        font-family: 'balooRegular';
+        color: rgb(100, 100, 100);
+    }
+}

@@ -1,0 +1,21 @@
+.footer {
+    background: linear-gradient(to top right, #1e2434 0%, #080959 100%);
+    //background-image: url("../../assets/images/home/footer_background.png");
+    color: white;
+    .heading {
+        font-family: "balooSemiBold";
+        font-size: 2.5rem;
+    }
+    .heading2 {
+        font-family: "balooSemiBold";
+        font-size: 1.5rem;
+    }
+    .subheading {
+        font-family: "balooRegular";
+        font-size: 1rem;
+        a {
+            color: white;
+            cursor: pointer;
+        }
+    }
+}

@@ -1,0 +1,222 @@
+<ngb-tabset [destroyOnHide]="false">
+
+    <ngb-tab class="test1">
+        <ng-template ngbTabTitle><b>DESCRIPTION</b> </ng-template>
+        <ng-template ngbTabContent>
+
+            <app-description></app-description>
+
+
+
+        </ng-template>
+    </ngb-tab>
+    <ngb-tab>
+        <ng-template ngbTabTitle><b>CURRICULUM</b> </ng-template>
+        <ng-template ngbTabContent>
+
+
+
+            <div>
+
+
+
+                <div id="accordion" class="text-left pb-2 pt-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed = !isCollapsed" [attr.aria-expanded]="!isCollapsed" aria-controls="collapsed1">
+                      PYTHON
+                    </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed1" [ngbCollapse]="isCollapsed">
+                                <ul *ngFor="let i of arrPython" class="list-group list-group-flush">
+                                    <li class="list-group-item">{{i.name}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed1 = !isCollapsed1" [attr.aria-expanded]="!isCollapsed1" aria-controls="collapsed2">
+                    SQl
+                  </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed1">
+                                <ul *ngFor="let i of arrSql" class="list-group list-group-flush">
+                                    <li class="list-group-item">{{i.name}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed3 = !isCollapsed3" [attr.aria-expanded]="!isCollapsed3" aria-controls="collapsed2">
+                    Data Analytics
+                  </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed3">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed4 = !isCollapsed4" [attr.aria-expanded]="!isCollapsed4" aria-controls="collapsed2">
+                    Maths
+                  </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed4">
+                                Detailed contents would be updated soon(Probability, Statistics & Linear Algebra)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed5 = !isCollapsed5" [attr.aria-expanded]="!isCollapsed5" aria-controls="collapsed2">
+                  Data Visualization
+                </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed5">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed6 = !isCollapsed6" [attr.aria-expanded]="!isCollapsed6" aria-controls="collapsed2">
+                Natural Language Processing
+              </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed6">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed7 = !isCollapsed7" [attr.aria-expanded]="!isCollapsed7" aria-controls="collapsed2">
+              SVM
+            </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed7">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed8 = !isCollapsed8" [attr.aria-expanded]="!isCollapsed8" aria-controls="collapsed2">
+           Featurization
+          </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed8">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed9 = !isCollapsed9" [attr.aria-expanded]="!isCollapsed9" aria-controls="collapsed2">
+         Unsupervised Learning
+        </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed9">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div id="accordion" class="text-left pb-2">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn " (click)="isCollapsed10 = !isCollapsed10" [attr.aria-expanded]="!isCollapsed10" aria-controls="collapsed2">
+       Deep Learning
+      </button>
+                            </h5>
+                        </div>
+
+                        <div class="collapse show">
+                            <div class="card-body" id="collapsed2" [ngbCollapse]="isCollapsed10">
+                                Detailed contents would be updated soon
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </ng-template>
+    </ngb-tab>
+
+</ngb-tabset>
+<app-footer></app-footer>
