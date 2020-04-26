@@ -11,3 +11,4 @@ before_script:
 script:
 - ng lint
 - ng build --prod --base-href https://geeksblogs.github.io/geekblogsv2/
+# test
