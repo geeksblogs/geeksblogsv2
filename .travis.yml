@@ -10,9 +10,10 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng lint
-- cp index.html 404.html
+
 - npm run test-headless
 - ng build --prod --base-href https://geeksblogs.github.io/geekblogsv2/
+- cp index.html 404.html
 deploy:
   provider: pages
   skip_cleanup: true
