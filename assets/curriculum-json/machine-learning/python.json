@@ -1,0 +1,58 @@
+[{
+        "id": "1",
+        "name": "Why Python"
+    },
+    {
+        "id": "2",
+        "name": "Comments"
+    },
+    {
+        "id": "3",
+        "name": "Keywords"
+    },
+    {
+        "id": "4",
+        "name": "Statements"
+    },
+    {
+        "id": "5",
+        "name": "Input Output"
+    },
+    {
+        "id": "6",
+        "name": "Data Types"
+    },
+    {
+        "id": "7",
+        "name": "Loops"
+    },
+    {
+        "id": "8",
+        "name": "Operators"
+    },
+    {
+        "id": "9",
+        "name": "Functions"
+    },
+    {
+        "id": "10",
+        "name": "Complexities"
+    },
+    {
+        "id": "11",
+        "name": "File Handling"
+    },
+
+    {
+        "id": "12",
+        "name": "Data Structure"
+    },
+    {
+        "id": "13",
+        "name": "Matplotlib & Numpy Introduction"
+    },
+    {
+        "id": "14",
+        "name": "Pandas Basics"
+    }
+]

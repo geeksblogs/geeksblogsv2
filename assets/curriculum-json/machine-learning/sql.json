@@ -1,0 +1,33 @@
+[{
+        "id": "1",
+        "name": "Why SQL"
+    },
+    {
+        "id": "2",
+        "name": "Statements"
+    },
+    {
+        "id": "3",
+        "name": "Famous datasets"
+    },
+    {
+        "id": "4",
+        "name": "SQL commands"
+    },
+    {
+        "id": "5",
+        "name": "Logical Operators"
+    },
+    {
+        "id": "6",
+        "name": "Joins"
+    },
+    {
+        "id": "7",
+        "name": "Query"
+    },
+    {
+        "id": "8",
+        "name": "DDL and DML basics"
+    }
+]
